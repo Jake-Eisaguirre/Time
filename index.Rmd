@@ -5,6 +5,11 @@ date: "11/8/2021"
 output: html_document
 ---
 
+## Welcome
+
+
+##Hello
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
@@ -49,6 +54,7 @@ d_times %>%
   datatable() %>%
   formatRound(columns=c('duration'), digits=3)
 ```
+<<<<<<< HEAD
 ```{r}
 # get libraries
 if (!require(librarian)){
@@ -174,4 +180,5 @@ plot_burndown(
   hrs = 9)
 datatable(d_task)
 ```
+
 

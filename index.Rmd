@@ -103,8 +103,8 @@ d_task <- d_times %>%
   filter(task_name == !!task)
 plot_burndown(
   d_task,
-  beg = as.Date("2021-10-31"), # day before
-  end = as.Date("2021-11-08"), # day after
+  beg = as.Date("2021-11-01"), # day before
+  end = as.Date("2021-11-02"), # day after
   hrs = 3)
 datatable(d_task)
 ```
@@ -115,8 +115,8 @@ d_task <- d_times %>%
   filter(task_name == !!task)
 plot_burndown(
   d_task,
-  beg = as.Date("2021-10-31"), # day before
-  end = as.Date("2021-11-07"), # day after
+  beg = as.Date("2021-11-01"), # day before
+  end = as.Date("2021-11-03"), # day after
   hrs = 4)
 datatable(d_task)
 ```
@@ -127,8 +127,8 @@ d_task <- d_times %>%
   filter(task_name == !!task)
 plot_burndown(
   d_task,
-  beg = as.Date("2021-10-31"), # day before
-  end = as.Date("2021-11-07"), # day after
+  beg = as.Date("2021-11-03"), # day before
+  end = as.Date("2021-11-05"), # day after
   hrs = 10)
 datatable(d_task)
 ```
@@ -139,8 +139,8 @@ d_task <- d_times %>%
   filter(task_name == !!task)
 plot_burndown(
   d_task,
-  beg = as.Date("2021-10-31"), # day before
-  end = as.Date("2021-11-07"), # day after
+  beg = as.Date("2021-11-05"), # day before
+  end = as.Date("2021-11-10"), # day after
   hrs = 1)
 datatable(d_task)
 ```
@@ -151,8 +151,8 @@ d_task <- d_times %>%
   filter(task_name == !!task)
 plot_burndown(
   d_task,
-  beg = as.Date("2021-10-31"), # day before
-  end = as.Date("2021-11-07"), # day after
+  beg = as.Date("2021-11-08"), # day before
+  end = as.Date("2021-11-15"), # day after
   hrs = 5)
 datatable(d_task)
 ```
@@ -163,8 +163,8 @@ d_task <- d_times %>%
   filter(task_name == !!task)
 plot_burndown(
   d_task,
-  beg = as.Date("2021-10-31"), # day before
-  end = as.Date("2021-11-07"), # day after
+  beg = as.Date("2021-11-15"), # day before
+  end = as.Date("2021-11-25"), # day after
   hrs = 3)
 datatable(d_task)
 ```
@@ -175,8 +175,8 @@ d_task <- d_times %>%
   filter(task_name == !!task)
 plot_burndown(
   d_task,
-  beg = as.Date("2021-10-31"), # day before
-  end = as.Date("2021-11-07"), # day after
+  beg = as.Date("2021-11-10"), # day before
+  end = as.Date("2021-12-01"), # day after
   hrs = 9)
 datatable(d_task)
 ```
